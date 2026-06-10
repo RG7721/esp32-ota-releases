@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "url": "https://github.com/RG7721/esp32-ota-releases/releases/download/v1.3/VS1.3.bin",
+  "url": "https://raw.githubusercontent.com/RG7721/esp32-ota-releases/main/aiot-firmware.bin",
   "notes": "初始發布版本",
   "mandatory": false
 }
