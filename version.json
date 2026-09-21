@@ -10,8 +10,8 @@
     "notes": "PC Gateway 更新：\n1. 強化 HTTP/WS 本地 API 鑑權\n2. 新增繼電器冷卻保護\n3. 修復跨午夜排程觸發"
   },
   "app": {
-    "version": "1.0.1",
-    "url": "https://github.com/RG7721/IOT/releases/download/v1.0.1/app-release.apk",
+    "version": "2609",
+    "url": "https://github.com/RG7721/esp32-ota-releases/releases/download/v2609/app-release.apk",
     "notes": "手機 App 更新：\n1. 修復電力概況頁功率與電流數值閃退問題\n2. 支援應用程式內自動遠端在線更新",
     "force": false
   },
