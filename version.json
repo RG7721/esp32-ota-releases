@@ -5,8 +5,8 @@
     "notes": "ESP32 韌體更新：提升網路與 Modbus 通訊穩定度"
   },
   "gateway": {
-    "version": "1.0.6",
-    "url": "https://github.com/RG7721/IOT/releases/download/v1.0.6/IoT_Gateway_Setup.exe",
+    "version": "2609",
+    "url": "https://github.com/RG7721/esp32-ota-releases/releases/download/v2609/IoT_Gateway_Setup.exe",
     "notes": "PC Gateway 更新：\n1. 強化 HTTP/WS 本地 API 鑑權\n2. 新增繼電器冷卻保護\n3. 修復跨午夜排程觸發"
   },
   "app": {
