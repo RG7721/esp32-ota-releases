@@ -1,8 +1,8 @@
 {
   "firmware": {
-    "version": "1.4.0",
-    "url": "https://raw.githubusercontent.com/RG7721/esp32-ota-releases/main/aiot-firmware.bin",
-    "notes": "ESP32 韌體更新：提升網路與 Modbus 通訊穩定度"
+    "version": "2609",
+    "url": "https://github.com/RG7721/esp32-ota-releases/releases/download/v2609/aiot-firmware.bin",
+    "notes": "ESP32 韌體 V2609 更新：\n1. 強化繼電器記憶體狀態快取，防止重複觸發並大幅延長 Flash 壽命\n2. 新增 UDP 發現防跳台保護機制，維持連線穩定度\n3. 支援 UID 廣播識別碼解析\n4. 非阻塞式感測器狀態探測"
   },
   "gateway": {
     "version": "2609",
