@@ -1,18 +1,18 @@
 {
   "firmware": {
-    "version": "2609.1",
+    "version": "v2609.1",
     "url": "https://github.com/RG7721/esp32-ota-releases/releases/download/v2609/aiot-firmware.bin",
-    "notes": "ESP32 韌體 V2609 更新：\n1. 強化繼電器記憶體狀態快取，防止重複觸發並大幅延長 Flash 壽命\n2. 新增 UDP 發現防跳台保護機制，維持連線穩定度\n3. 支援 UID 廣播識別碼解析\n4. 非阻塞式感測器狀態探測"
+    "notes": "ESP32 韌體 V2609.1 更新：\n1. RS485 緩衝延遲增至 30ms，消除電壓寄存器通訊衝突\n2. 新增電壓讀取成功驗證，防止通訊異常時發送全零數據覆蓋雲端\n3. 支援停電(0V)狀態正常回報與診斷"
   },
   "gateway": {
-    "version": "2609",
-    "url": "https://github.com/RG7721/esp32-ota-releases/releases/download/v2609/IoT_Gateway_Setup.exe",
-    "notes": "PC Gateway 更新：\n1. 強化 HTTP/WS 本地 API 鑑權\n2. 新增繼電器冷卻保護\n3. 修復跨午夜排程觸發"
+    "version": "2610",
+    "url": "https://github.com/RG7721/esp32-ota-releases/releases/download/v2610/IoT_Gateway_Setup.exe",
+    "notes": "PC Gateway V2610 更新：\n1. 全流程可視化更新進度條（即時網速、剩餘時間、下載大小）\n2. 新增平順安裝倒數與確認機制，徹底消除黑箱閃退\n3. 更新安裝時自動停用看門狗，避免行程衝突\n4. 支援 0V 停電診斷數據接收與本地 API 電壓回傳"
   },
   "app": {
     "version": "2609",
     "url": "https://github.com/RG7721/esp32-ota-releases/releases/download/v2609/app-release.apk",
-    "notes": "手機 App 更新：\n1. 修復電力概況頁功率與電流數值閃退問題\n2. 支援應用程式內自動遠端在線更新",
+    "notes": "手機 App V2609 更新：\n1. 修復電力概況頁功率與電流數值閃退問題\n2. 啟用應用程式內自動遠端在線更新功能",
     "force": false
   },
   "version": "1.4.0",
