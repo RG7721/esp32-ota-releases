@@ -10,9 +10,9 @@
     "notes": "PC Gateway V2610 更新：\n1. 全流程可視化更新進度條（即時網速、剩餘時間、下載大小）\n2. 新增平順安裝倒數與確認機制，徹底消除黑箱閃退\n3. 更新安裝時自動停用看門狗，避免行程衝突\n4. 支援 0V 停電診斷數據接收與本地 API 電壓回傳"
   },
   "app": {
-    "version": "2609",
-    "url": "https://github.com/RG7721/esp32-ota-releases/releases/download/v2609/app-release.apk",
-    "notes": "手機 App V2609 更新：\n1. 修復電力概況頁功率與電流數值閃退問題\n2. 啟用應用程式內自動遠端在線更新功能",
+    "version": "2610",
+    "url": "https://github.com/RG7721/esp32-ota-releases/releases/download/v2610/app-release.apk",
+    "notes": "手機 App V2610 更新：\n1. 新增應用程式內自動在線更新與手動檢查功能\n2. 支援現場停電(0V)狀態診斷與電力品質判定\n3. 強化電壓即時快取與設備 MAC 標準化比對\n4. 修復電力概況頁數值短暫缺失問題",
     "force": false
   },
   "version": "1.4.0",
