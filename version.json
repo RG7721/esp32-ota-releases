@@ -10,9 +10,9 @@
     "notes": "PC Gateway V2610 更新：\n1. 全流程可視化更新進度條（即時網速、剩餘時間、下載大小）\n2. 新增平順安裝倒數與確認機制，徹底消除黑箱閃退\n3. 更新安裝時自動停用看門狗，避免行程衝突\n4. 支援 0V 停電診斷數據接收與本地 API 電壓回傳"
   },
   "app": {
-    "version": "2610.2",
-    "url": "https://github.com/RG7721/esp32-ota-releases/releases/download/v2610.2/app-release.apk",
-    "notes": "手機 App V2610.2 更新：\n1. 歷史能耗架構升級（On-Demand 反查＋本地快取，零多餘雲端請求）\n2. 支援離線與 Gateway 關機快取永久保留顯示\n3. 新增巡塘人為觀察紀錄與智慧週報三方交叉診斷支援\n4. 提升冷開機載入流暢度與網路斷線自癒能力",
+    "version": "2610.3",
+    "url": "https://github.com/RG7721/esp32-ota-releases/releases/download/v2610.3/app-release.apk",
+    "notes": "手機 App V2610.3 更新：\n1. 修復區網/雲端切換與舊版 Gateway 相容問題，解決電力頁跳出斷線或無資料\n2. 歷史能耗架構升級（On-Demand 反查＋本地快取，零多餘雲端請求）\n3. 支援離線與 Gateway 關機快取永久保留顯示\n4. 新增巡塘人為觀察紀錄與智慧週報三方交叉診斷支援",
     "force": false
   },
   "version": "1.4.0",
