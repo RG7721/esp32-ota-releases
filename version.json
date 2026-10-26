@@ -5,9 +5,9 @@
     "notes": "ESP32 韌體 V2609.1 更新：\n1. RS485 緩衝延遲增至 30ms，消除電壓寄存器通訊衝突\n2. 新增電壓讀取成功驗證，防止通訊異常時發送全零數據覆蓋雲端\n3. 支援停電(0V)狀態正常回報與診斷"
   },
   "gateway": {
-    "version": "2610.3",
-    "url": "https://github.com/RG7721/esp32-ota-releases/releases/download/v2610.3/IoT_Gateway_Setup.exe",
-    "notes": "PC Gateway V2610.3 更新：\n1. 歷史能耗架構升級（移除無用雲端同步，支援 App On-Demand SQLite 極速反查）\n2. 智慧養殖週報升級：導入白蝦×吳郭魚五階段物理規則矩陣與巡塘人為觀察三方交叉診斷\n3. 修復本地 API (/api/status) 通道設定格式，完美相容手機端區網直連模式"
+    "version": "2610.4",
+    "url": "https://github.com/RG7721/esp32-ota-releases/releases/download/v2610.4/IoT_Gateway_Setup.exe",
+    "notes": "PC Gateway V2610.4 更新：\n1. 修復 Discord AI 多輪工具對話 thoughtSignature 傳遞與備援模型自動降級，解決 503/流量受限問題\n2. 修復「遷移並清理雲端能耗歷史」按鈕之系統控制器引用錯誤\n3. 優化遠端更新下載進度視窗置頂、顯示安裝進度條，並於安裝完成後自動啟動新版程式"
   },
   "app": {
     "version": "2610.3",
