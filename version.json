@@ -5,9 +5,9 @@
     "notes": "ESP32 韌體 V2609.1 更新：\n1. RS485 緩衝延遲增至 30ms，消除電壓寄存器通訊衝突\n2. 新增電壓讀取成功驗證，防止通訊異常時發送全零數據覆蓋雲端\n3. 支援停電(0V)狀態正常回報與診斷"
   },
   "gateway": {
-    "version": "2611",
-    "url": "https://github.com/RG7721/esp32-ota-releases/releases/download/v2611/IoT_Gateway_Setup.exe",
-    "notes": "PC Gateway V2611 更新：\n1. 升級跨廠牌/新舊版 Android (三星 A8 / S23 Ultra) 三層接聽偵測引擎與強制掛斷複查\n2. 修復電話警報未檢查繼電器狀態之問題（繼電器 OFF 時忽略 0A 低電流，保留過電流保護）\n3. 支援各通道獨立計算 1 小時靜默期、60 秒防抖動恢復緩衝與靜默狀態存檔持久化\n4. 新增獨立「電話警報觸發持續時間」設定、「第二聯絡人」自動輪替撥號與 ADB 手機狀態檢測按鈕"
+    "version": "2611.1",
+    "url": "https://github.com/RG7721/esp32-ota-releases/releases/download/v2611.1/IoT_Gateway_Setup.exe",
+    "notes": "PC Gateway V2611.1 更新：\n1. 修復 WebSocket Server 未取得 Gateway pc_uid 導致手機 App 區網直連鑑權失敗被踢之問題\n2. 解決手機在區域網路模式與雲端模式之間循環跳動、斷線重連洗版\n3. 限制即時數據廣播僅推送給已鑑權客戶端，並嚴格攔截未授權指令"
   },
   "app": {
     "version": "2610.3",
