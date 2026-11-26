@@ -5,9 +5,9 @@
     "notes": "ESP32 韌體 V2609.1 更新：\n1. RS485 緩衝延遲增至 30ms，消除電壓寄存器通訊衝突\n2. 新增電壓讀取成功驗證，防止通訊異常時發送全零數據覆蓋雲端\n3. 支援停電(0V)狀態正常回報與診斷"
   },
   "gateway": {
-    "version": "2611.1",
-    "url": "https://github.com/RG7721/esp32-ota-releases/releases/download/v2611.1/IoT_Gateway_Setup.exe",
-    "notes": "PC Gateway V2611.1 更新：\n1. 修復 WebSocket Server 未取得 Gateway pc_uid 導致手機 App 區網直連鑑權失敗被踢之問題\n2. 解決手機在區域網路模式與雲端模式之間循環跳動、斷線重連洗版\n3. 限制即時數據廣播僅推送給已鑑權客戶端，並嚴格攔截未授權指令"
+    "version": "2611.2",
+    "url": "https://github.com/RG7721/esp32-ota-releases/releases/download/v2611.2/IoT_Gateway_Setup.exe",
+    "notes": "PC Gateway V2611.2 更新：\n1. 全面修復 7 處必崩錯誤（Client 模式 SSE、AI 預警推播、AI 工具紀錄/閾值查詢、MQTT 設備探索、歷史回饋按鈕與開機同步）\n2. 強化現場安全：繼電器 OFF 黏死時仍保留過電流警報、修正 AdminTab 秒數覆寫與排程編輯錯亂\n3. 24/7 穩定性升級：停電復電斷網保留自動登入憑證、Firebase SSE 無死鎖重連、HTTP 分包組裝與 Socket 釋放、SQLite 連線防洩漏與定時清理、QThread 防閃退及 OTA 完整性校驗"
   },
   "app": {
     "version": "2610.3",
